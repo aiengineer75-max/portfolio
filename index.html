@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rabia Zulfiqar – Full Stack Developer, Graphic Designer & AI Engineering Student based in Lahore, Pakistan.">
+    <title>Rabia Zulfiqar | Full Stack Developer & AI Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-inner">
+            <div class="loader-ring"></div>
+            <span class="loader-text">RZ</span>
+        </div>
+    </div>
+
+    <!-- Scroll to Top -->
+    <button id="scrollTop" aria-label="Scroll to top"><i class="fas fa-chevron-up"></i></button>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-logo">Rabia Zulfiqar<span class="dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" id="closeMenu" aria-label="Close menu"><i class="fas fa-times"></i></button>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <!-- ===================== HERO ===================== -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-image-wrap" data-aos="zoom-in" data-aos-duration="800">
+                <div class="hero-image">
+                    <div class="avatar-placeholder">
+                        <img src="main.png" alt="Rabia Zulfiqar Avatar">
+                    </div>
+                    <div class="ring ring-1"></div>
+                    <div class="ring ring-2"></div>
+                </div>
+            </div>
+            <div class="hero-text" data-aos="fade-up" data-aos-delay="200">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Rabia Zulfiqar</h1>
+                <div class="typewriter-wrap">
+                    <span class="typewriter-prefix">I'm a </span>
+                    <span class="typewriter" id="typewriter"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Lahore, Pakistan</p>
+                <div class="hero-btns">
+                    <a href="RabiaShahzadiCV.pdf" class="btn btn-primary" download target="_blank">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-paper-plane"></i> Contact Me
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/rabia-shahzadi-453aba39a" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/aiengineer75-max" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:aiengineer75@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint"><span></span></div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Who I Am</span>
+                <h2>About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-visual" data-aos="fade-right">
+                    <div class="about-img-wrap">
+                        <div class="about-avatar">
+                            <img src="main.png" alt="Rabia Zulfiqar">
+                        </div>
+                        <div class="about-glow"></div>
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left" data-aos-delay="100">
+                    <p class="about-text">
+                        I am a passionate <strong>Full Stack Web Developer</strong> and <strong>Graphic Designer</strong> currently pursuing Artificial Intelligence Engineering at the University of Engineering and Technology (UET), Lahore.
+                    </p>
+                    <p class="about-text">
+                        My expertise includes web development, UI/UX design, programming, and professional documentation. I enjoy building scalable web applications, creating professional designs, and exploring innovative AI technologies.
+                    </p>
+                    <p class="about-text">
+                        I am committed to continuous learning and developing impactful digital solutions that solve real-world problems.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <h3 class="counter" data-target="3">0</h3>
+                            <span>+</span>
+                            <p>Major Projects</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3 class="counter" data-target="10">0</h3>
+                            <span>+</span>
+                            <p>Technical Skills</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3 class="counter" data-target="100">0</h3>
+                            <span>%</span>
+                            <p>Dedication</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">What I Know</span>
+                <h2>Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                    <h4>HTML5</h4>
+                    <div class="progress-bar"><div class="progress" data-width="92"></div></div>
+                    <span class="skill-pct">92%</span>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="60">
+                    <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                    <h4>CSS3</h4>
+                    <div class="progress-bar"><div class="progress" data-width="88"></div></div>
+                    <span class="skill-pct">88%</span>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="120">
+                    <div class="skill-icon"><i class="fab fa-js"></i></div>
+                    <h4>JavaScript</h4>
+                    <div class="progress-bar"><div class="progress" data-width="80"></div></div>
+                    <span class="skill-pct">80%</span>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="180">
+                    <div class="skill-icon"><i class="fab fa-php"></i></div>
+                    <h4>PHP</h4>
+                    <div class="progress-bar"><div class="progress" data-width="72"></div></div>
+                    <span class="skill-pct">72%</span>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="skill-icon"><i class="fas fa-c"></i></div>
+                    <h4>C Programming</h4>
+                    <div class="progress-bar"><div class="progress" data-width="85"></div></div>
+                    <span class="skill-pct">85%</span>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="60">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h4>C++</h4>
+                    <div class="progress-bar"><div class="progress" data-width="82"></div></div>
+                    <span class="skill-pct">82%</span>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="120">
+                    <div class="skill-icon"><i class="fas fa-palette"></i></div>
+                    <h4>Graphic Design</h4>
+                    <div class="progress-bar"><div class="progress" data-width="78"></div></div>
+                    <span class="skill-pct">78%</span>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="180">
+                    <div class="skill-icon"><i class="fas fa-globe"></i></div>
+                    <h4>Web Development</h4>
+                    <div class="progress-bar"><div class="progress" data-width="87"></div></div>
+                    <span class="skill-pct">87%</span>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h4>Artificial Intelligence</h4>
+                    <div class="progress-bar"><div class="progress" data-width="65"></div></div>
+                    <span class="skill-pct">65%</span>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="60">
+                    <div class="skill-icon"><i class="fab fa-microsoft"></i></div>
+                    <h4>Microsoft Office</h4>
+                    <div class="progress-bar"><div class="progress" data-width="90"></div></div>
+                    <span class="skill-pct">90%</span>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="120">
+                    <div class="skill-icon"><i class="fas fa-keyboard"></i></div>
+                    <h4>Professional Typing</h4>
+                    <div class="progress-bar"><div class="progress" data-width="95"></div></div>
+                    <span class="skill-pct">95%</span>
+                </div>
+                <div class="skill-card" data-aos="fade-up" data-aos-delay="180">
+                    <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h4>Problem Solving</h4>
+                    <div class="progress-bar"><div class="progress" data-width="83"></div></div>
+                    <span class="skill-pct">83%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">What I've Built</span>
+                <h2>Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="project-top">
+                        <div class="project-icon"><i class="fas fa-hospital"></i></div>
+                        <div class="project-links">
+                            <button onclick="showProject('Hospital Management System')" aria-label="View project"><i class="fas fa-external-link-alt"></i></button>
+                        </div>
+                    </div>
+                    <h3>Hospital Management System</h3>
+                    <p>Comprehensive system using C language to manage patient records, doctor information, appointment scheduling, and hospital operations efficiently.</p>
+                    <div class="tech-badges">
+                        <span>C</span>
+                        <span>File Handling</span>
+                        <span>Data Structures</span>
+                    </div>
+                </div>
+                <div class="project-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-top">
+                        <div class="project-icon"><i class="fas fa-gavel"></i></div>
+                        <div class="project-links">
+                            <button onclick="showProject('Online Auction System')" aria-label="View project"><i class="fas fa-external-link-alt"></i></button>
+                        </div>
+                    </div>
+                    <div class="featured-badge">Featured</div>
+                    <h3>Online Auction System</h3>
+                    <p>Full Stack Online Auction System allowing users to buy, sell, and bid on products. Features authentication, product management, bidding functionality, and responsive dashboards.</p>
+                    <div class="tech-badges">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-top">
+                        <div class="project-icon"><i class="fas fa-file-alt"></i></div>
+                        <div class="project-links">
+                            <button onclick="showProject('Document & Presentation Design')" aria-label="View project"><i class="fas fa-external-link-alt"></i></button>
+                        </div>
+                    </div>
+                    <h3>Document & Presentation Design</h3>
+                    <p>High-quality PowerPoint presentations, reports, resumes, project documentation, and professionally formatted Word documents for academic and business purposes.</p>
+                    <div class="tech-badges">
+                        <span>Microsoft Word</span>
+                        <span>PowerPoint</span>
+                        <span>Graphic Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">What I Offer</span>
+                <h2>Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+                    <h3>Full Stack Development</h3>
+                    <p>Building modern, responsive, and scalable web applications from front to back.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="80">
+                    <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Graphic Design</h3>
+                    <p>Creative branding, social media graphics, presentations, and compelling visual content.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="160">
+                    <div class="service-icon"><i class="fas fa-file-word"></i></div>
+                    <h3>Document & Presentation Design</h3>
+                    <p>Professional reports, resumes, project documentation, and polished presentations.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="240">
+                    <div class="service-icon"><i class="fas fa-robot"></i></div>
+                    <h3>AI Solutions</h3>
+                    <p>Applying AI concepts and innovative technologies to solve real-world problems at scale.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section id="education" class="education section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">My Journey</span>
+                <h2>Education</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2025 – Present</span>
+                        <h3>Artificial Intelligence Engineering</h3>
+                        <p class="timeline-institute">University of Engineering and Technology (UET), Lahore</p>
+                        <p>Currently pursuing a B.S. in AI Engineering, building expertise in machine learning, deep learning, software systems, and computational mathematics.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right" data-aos="fade-left">
+                    <div class="timeline-dot"><i class="fas fa-school"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2023 – 2025</span>
+                        <h3>Intermediate</h3>
+                        <p class="timeline-institute">Government Graduate Women College, Lahore</p>
+                        <p>Completed Intermediate studies, developing a strong foundation in sciences and analytical thinking.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"><i class="fas fa-star"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2021 – 2023</span>
+                        <h3>Matriculation</h3>
+                        <p class="timeline-institute">Bright Star Schools</p>
+                        <p>Completed Matriculation with distinction, establishing the academic groundwork for future technical pursuits.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Get In Touch</span>
+                <h2>Contact</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+923347582151">+92 334 7582151</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:aiengineer75@gmail.com">aiengineer75@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Lahore, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/in/rabia-shahzadi-453aba39a" target="_blank">rabia-shahzadi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">RZ<span class="dot">.</span></div>
+            <p class="footer-title">Full Stack Developer · Graphic Designer · AI Engineer</p>
+            <div class="footer-social">
+                <a href="https://linkedin.com/in/rabia-shahzadi-453aba39a" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/aiengineer75-max" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:aiengineer75@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="footer-copy">© 2026 Rabia Zulfiqar. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Notification -->
+    <div id="notification" class="notification" role="alert"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
